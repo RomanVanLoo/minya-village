@@ -118,7 +118,7 @@ p {
   padding: 0 32px;
   font-size: 16px;
   line-height: 48px;
-  color: #0067f4;
+  color: #E7A32A;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -264,7 +264,7 @@ p {
           content: '';
           width: 8px;
           height: 4px;
-          background-color: #0067f4;
+          background-color: #E7A32A;
           left: 50%;
           margin: 0 2px;
           bottom: 14px;
@@ -284,7 +284,7 @@ p {
           left: auto;
           right: 50%; }
       .navgition .navbar .navbar-nav .nav-item.active > a, .navgition .navbar .navbar-nav .nav-item:hover > a {
-        color: #0067f4; }
+        color: #E7A32A; }
         .navgition .navbar .navbar-nav .nav-item.active > a::before, .navgition .navbar .navbar-nav .nav-item.active > a::after, .navgition .navbar .navbar-nav .nav-item:hover > a::before, .navgition .navbar .navbar-nav .nav-item:hover > a::after {
           opacity: 1; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -318,7 +318,7 @@ p {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
         .navgition .navbar .navbar-social ul li a:hover {
-          color: #0067f4; }
+          color: #E7A32A; }
 
 .header-hero {
   height: 850px;
@@ -340,7 +340,7 @@ p {
     background: -o-linear-gradient(rgba(232, 237, 255, 0.8), rgba(239, 254, 255, 0.6) 50%, rgba(254, 255, 244, 0.2) 68%, rgba(255, 255, 255, 0.12));
     background: linear-gradient(rgba(232, 237, 255, 0.8), rgba(239, 254, 255, 0.6) 50%, rgba(254, 255, 244, 0.2) 68%, rgba(255, 255, 255, 0.12)); }
   .header-hero .header-content {
-    padding-top: 195px;
+    padding-top: 270px;
     position: relative;
     z-index: 9; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -392,9 +392,9 @@ p {
               height: 100%;
               top: 0;
               left: 0;
-              background-image: -webkit-linear-gradient(left, #0067f4, #2bdbdc);
-              background-image: -o-linear-gradient(left, #0067f4, #2bdbdc);
-              background-image: linear-gradient(to right, #0067f4, #2bdbdc);
+              background-image: -webkit-linear-gradient(left, #E7A32A, #E52C30);
+              background-image: -o-linear-gradient(left, #E7A32A, #E52C30);
+              background-image: linear-gradient(to right, #E7A32A, #E52C30);
               background-position: right center;
               z-index: -1;
               -webkit-transition: all 0.3s ease-out 0s;
@@ -403,9 +403,9 @@ p {
               -o-transition: all 0.3s ease-out 0s;
               transition: all 0.3s ease-out 0s; }
             .header-hero .header-content .header-btn li a.main-btn.btn-one:hover::before {
-              background-image: -webkit-linear-gradient(right, #0067f4, #2bdbdc);
-              background-image: -o-linear-gradient(right, #0067f4, #2bdbdc);
-              background-image: linear-gradient(to left, #0067f4, #2bdbdc);
+              background-image: -webkit-linear-gradient(right, #E7A32A, #E52C30);
+              background-image: -o-linear-gradient(right, #E7A32A, #E52C30);
+              background-image: linear-gradient(to left, #E7A32A, #E52C30);
               background-position: left center;
               -webkit-transition: all none ease-out 0s;
               -moz-transition: all none ease-out 0s;
@@ -442,7 +442,7 @@ p {
 
 .services-content .services-icon i {
   font-size: 64px;
-  color: #0067f4; }
+  color: #E7A32A; }
 
 .services-content .services-content {
   padding-left: 15px; }
@@ -545,7 +545,7 @@ p {
       bottom: 0;
       left: 0;
       right: 0;
-      background-color: #2bdbdc;
+      background-color: #E52C30;
       margin: 0 auto; }
   .single-pricing .pricing-header .price {
     display: block;
@@ -592,15 +592,15 @@ p {
           font-size: 16px;
           margin-top: 16px; } }
       .single-pricing .pricing-list ul li i {
-        color: #0067f4;
+        color: #E7A32A;
         margin-right: 8px; }
   .single-pricing .pricing-btn {
     margin-top: 42px; }
     .single-pricing .pricing-btn .main-btn {
-      background-color: #0067f4;
+      background-color: #E7A32A;
       border-radius: 50px;
       color: #fff;
-      border-color: #0067f4; }
+      border-color: #E7A32A; }
       .single-pricing .pricing-btn .main-btn:hover {
         background-color: #005ad5;
         border-color: #005ad5; }
@@ -613,7 +613,7 @@ p {
 .single-pricing.pro .pricing-header .sub-title::before {
   right: auto;
   left: 0;
-  background-color: #0067f4; }
+  background-color: #E7A32A; }
 
 .single-pricing.pro .pricing-baloon {
   position: absolute;
@@ -624,7 +624,7 @@ p {
 .single-pricing.enterprise .pricing-header .sub-title::before {
   right: 0;
   left: auto;
-  background-color: #0067f4; }
+  background-color: #E7A32A; }
 
 .single-pricing.enterprise .pricing-flower {
   position: absolute;
@@ -647,7 +647,7 @@ p {
     5.CALL TO ACTION css 
 ===========================*/
 .call-to-action {
-  background-color: #0067f4;
+  background-color: #E7A32A;
   position: relative; }
 
 .call-action-image {
@@ -702,7 +702,7 @@ p {
     margin: 24px auto 0; }
     .call-action-content .call-newsletter i {
       font-size: 26px;
-      color: #0067f4;
+      color: #E7A32A;
       position: absolute;
       left: 18px;
       top: 15px; }
@@ -739,7 +739,7 @@ p {
       position: absolute;
       top: 4px;
       right: 4px;
-      background-color: #0067f4;
+      background-color: #E7A32A;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -751,7 +751,7 @@ p {
           right: auto;
           margin-top: 15px;
           background-color: #fff;
-          color: #0067f4; } }
+          color: #E7A32A; } }
       .call-action-content .call-newsletter button:hover {
         background-color: #005ad5;
         color: #fff; }
@@ -819,7 +819,7 @@ p.form-message.error {
     resize: none; }
   .contact-form .single-form .main-btn {
     border-radius: 50px;
-    background-color: #0067f4;
+    background-color: #E7A32A;
     color: #fff; }
     .contact-form .single-form .main-btn:hover {
       background-color: #005ad5; }
@@ -862,7 +862,7 @@ p.form-message.error {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-logo-support .footer-logo .social li a:hover {
-        color: #0067f4; }
+        color: #E7A32A; }
 
 .footer-logo-support .footer-support span {
   font-size: 20px;
@@ -900,7 +900,7 @@ p.form-message.error {
       -o-transition: all 0.3s ease-out 0s;
       transition: all 0.3s ease-out 0s; }
       .footer-link ul li a:hover {
-        color: #0067f4; }
+        color: #E7A32A; }
 
 .footer-newsletter {
   margin-top: 32px; }
@@ -958,7 +958,7 @@ p.form-message.error {
   line-height: 50px;
   border-radius: 50%;
   text-align: center;
-  background-color: #0067f4;
+  background-color: #E7A32A;
   bottom: 10px;
   right: 20px;
   z-index: 999;
