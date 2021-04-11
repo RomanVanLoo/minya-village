@@ -5,4 +5,10 @@
 
 #navbar-logo {
   height: 120px;
+  }
+@media (max-width: 767px) {
+  #navbar-logo {
+    height: 90px;
+    padding-left: 20px;
+  }
 }
