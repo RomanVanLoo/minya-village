@@ -602,8 +602,8 @@ p {
       color: #fff;
       border-color: #E7A32A; }
       .single-pricing .pricing-btn .main-btn:hover {
-        background-color: #005ad5;
-        border-color: #005ad5; }
+        background-color: #E52C30;
+        border-color: #E52C30; }
   .single-pricing .buttom-shape {
     position: absolute;
     bottom: -20px;
@@ -753,7 +753,7 @@ p {
           background-color: #fff;
           color: #E7A32A; } }
       .call-action-content .call-newsletter button:hover {
-        background-color: #005ad5;
+        background-color: #E52C30;
         color: #fff; }
 
 /*===========================
@@ -822,7 +822,7 @@ p.form-message.error {
     background-color: #E7A32A;
     color: #fff; }
     .contact-form .single-form .main-btn:hover {
-      background-color: #005ad5; }
+      background-color: #E52C30; }
 
 .list-unstyled li {
   font-size: 13px;
@@ -969,5 +969,5 @@ p.form-message.error {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   display: none; }
   .back-to-top:hover {
-    background-color: #005ad5;
+    background-color: #E52C30;
     color: #fff; }
