@@ -994,3 +994,13 @@ p.form-message.error {
   .back-to-top:hover {
     background-color: #E52C30;
     color: #fff; }
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+}
