@@ -440,11 +440,12 @@ Voor mij is het niet meer dan een droom, een verwezenlijking op mijn bucketlist 
     <!--====== main js ======-->
     <script src="assets/js/main.js"></script>
 
+
     <!--====== navbar active item =====-->
-    <script
+    <script>
       $(".nav-item a").on("click", function(){
-        document.getelementsbyclassname("nav-item active")[0].classlist.remove("active")
-        this.parentelement.classlist.add("active")
+        document.getElementsByClassName("nav-item active")[0].classList.remove("active")
+        this.parentElement.classList.add("active")
       });
     </script>
 
