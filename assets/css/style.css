@@ -529,7 +529,8 @@ p {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background-color: #fff; }
+  background-color: #fff;
+  height: 320px; }
   .single-pricing .pricing-header .sub-title {
     font-size: 20px;
     font-weight: 600;
@@ -545,7 +546,7 @@ p {
       bottom: 0;
       left: 0;
       right: 0;
-      background-color: #E52C30;
+      background-color: #E7A32A;
       margin: 0 auto; }
   .single-pricing .pricing-header .price {
     display: block;
@@ -573,7 +574,9 @@ p {
     color: #6c6c6c;
     margin-top: 3px; }
   .single-pricing .pricing-list {
-    margin-top: 40px; }
+    margin-bottom: 90px;
+    max-width: 60%;
+    margin-left: auto; }
     .single-pricing .pricing-list ul li {
       font-size: 16px;
       line-height: 24px;
@@ -617,9 +620,9 @@ p {
 
 .single-pricing.pro .pricing-baloon {
   position: absolute;
-  top: 0;
-  right: -78px;
-  width: 156px; }
+  top: 35px;
+  right: -56px;
+  width: 140px; }
 
 .single-pricing.enterprise .pricing-header .sub-title::before {
   right: 0;
@@ -628,9 +631,9 @@ p {
 
 .single-pricing.enterprise .pricing-flower {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 144px; }
+  top: 45px;
+  left: -50px;
+  width: 165px; }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .single-pricing.enterprise .pricing-flower {
       width: 110px; } }
@@ -641,6 +644,23 @@ p {
     .single-pricing.enterprise .pricing-flower {
       width: 144px; } }
   .single-pricing.enterprise .pricing-flower img {
+    width: 100%; }
+
+.single-pricing.enterprise .pricing-backpack {
+  position: absolute;
+  top: 45px;
+  left: -30px;
+  width: 150px; }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-pricing.enterprise .pricing-backpack {
+      width: 110px; } }
+  @media (max-width: 767px) {
+    .single-pricing.enterprise .pricing-backpack {
+      width: 110px; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .single-pricing.enterprise .pricing-backpack {
+      width: 144px; } }
+  .single-pricing.enterprise .pricing-backpack img {
     width: 100%; }
 
 /*===========================
