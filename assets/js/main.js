@@ -13,6 +13,8 @@ $(function() {
     
     $(".navbar-toggler").on('click', function() {
         $(this).toggleClass('active');
+        $(".nav-item a").addClass("black-text")
+        $(".nav-item a").removeClass("white-text")
     });
     
     $(".navbar-nav a").on('click', function() {
@@ -33,8 +35,12 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 10) {
             $(".navgition").removeClass("sticky");
+            $(".nav-item a").removeClass("black-text")
+            $(".nav-item a").addClass("white-text")
         }else{
             $(".navgition").addClass("sticky");
+            $(".nav-item a").addClass("black-text")
+            $(".nav-item a").removeClass("white-text")
         }
     });
     
